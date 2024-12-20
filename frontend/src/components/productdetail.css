@@ -1,0 +1,83 @@
+.productdetail {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    gap: 70px;
+}
+
+.prosec1 {
+    background-color: white;
+    border: solid rgb(136, 136, 136) 1px;
+    border-radius: 20px;
+    display: flex;
+    padding: 30px;
+}
+
+.prosec1 img {
+    width: 400px;
+    border: solid rgb(189, 189, 189) 1px;
+    border-radius: 15px;
+}
+
+.fresho {
+    text-decoration: underline;
+    color: rgb(134, 134, 134);
+    font-size: 20px;
+}
+
+.productname {
+    font-size: 40px;
+    margin: 0 0 15px 0;
+
+}
+
+.productorgprice {
+    color: rgb(134, 134, 134);
+    font-size: 20px;
+}
+
+.productorgprice span {
+    text-decoration: line-through;
+}
+
+.productprice {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+.yousave {
+    color: #4e7a00;
+    font-size: 30px;
+
+}
+
+.yousave span {
+    font-weight: bold;
+}
+
+.taxes {
+    color: rgb(134, 134, 134);
+    font-size: 20px;
+}
+
+.proaddbtn {
+    background-color: #CC0001;
+    color: white;
+    margin: 15px 0 0 0;
+    font-size: 30px;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    border: solid 2px #CC0001;
+    font-weight: bold;
+}
+
+.proaddbtn:hover {
+    color: #CC0001;
+    background-color: white;
+    border: solid 2px #CC0001;
+    transition: .3s;
+}
