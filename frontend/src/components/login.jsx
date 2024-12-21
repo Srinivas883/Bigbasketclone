@@ -44,8 +44,8 @@ function Login() {
                 <div className="loginpage" onClick={(e) => e.stopPropagation()} >
                     <img src={bigblogo} alt="" />
                     <h2>Login</h2>
-                    <input type="text" placeholder="Email" onClick={(e) => { setuser(e.target.value) }} />
-                    <input type="password" placeholder="Password" onClick={(e) => { setpass(e.target.value) }} />
+                    <input type="text" placeholder="Email" value={user} onChange={(e) => { setuser(e.target.value) }} />
+                    <input type="password" placeholder="Password" value={pass} onChange={(e) => { setpass(e.target.value) }} />
                     <button onClick={login}>Login</button>
                     <p className="xbtn" onClick={() => { navigate("/") }}>X</p>
                     <p>New user? <span onClick={() => { navigate("/signup") }}>Click here to SignUp</span></p>

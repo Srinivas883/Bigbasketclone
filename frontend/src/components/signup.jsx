@@ -77,9 +77,9 @@ function SignUp() {
                 <div className="signupage" onClick={(e) => e.stopPropagation()} >
                     <img src={bigblogo} alt="" />
                     <h2>Signup</h2>
-                    <input type="text" placeholder="Email" onChange={(e) => { setuser(e.target.value) }} />
-                    <input type="password" placeholder="Password" onChange={(e) => { setpass(e.target.value) }} />
-                    <input type="password" placeholder="Re-Password" onChange={(e) => { setrepass(e.target.value) }} />
+                    <input type="text" placeholder="Email" value={user} onChange={(e) => { setuser(e.target.value) }} />
+                    <input type="password" placeholder="Password" value={pass} onChange={(e) => { setpass(e.target.value) }} />
+                    <input type="password" placeholder="Re-Password" value={repass} onChange={(e) => { setrepass(e.target.value) }} />
                     <button onClick={signupuser}>SignUp</button>
                     <p className="xbtn" onClick={() => { navigate("/") }}>X</p>
                     <p>Registerd user?<span onClick={() => { navigate('/login') }}> Click Here..</span></p>
